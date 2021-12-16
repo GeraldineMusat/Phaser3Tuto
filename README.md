@@ -11,3 +11,9 @@ On va maintenant afficher le ciel grace a la fonction `creerCiel(this);` que l'o
 Pour pouvoir afficher des platformes on va devoir d'abord charger l'image dans la fonction `preload()` comme pour *l'etape 1*.
 
 ## Etape 4
+Ensuite, on doit initialiser la platforme dans la fonction `create()` en ajoutant `initialiserPlatforms(this);`
+
+## Etape 5
+Pour pouvoir ajouter d'autre plateforme, on peut utiliser `ajouterPlatform(x, y);` dans la fonction `create()`. La fonction `ajouterPlatform(x, y)` a deux parametres `x` et `y` qui sont les coordonnees pour placer les plateformes dans le jeu.
+
+Par exemple, tu peux ajouter une plateforme aux coordonnees x=600 et y=400
