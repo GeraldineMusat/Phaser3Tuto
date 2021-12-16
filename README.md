@@ -18,4 +18,5 @@ Pour pouvoir ajouter une autre plateforme, on peut utiliser `ajouterPlatform(x, 
 
 Par exemple, tu peux ajouter une plateforme aux coordonnees x=600 et y=400. On peut ajouter autant de plateforme que l'on veut.
 
-
+## Etape 6
+Il nous faut un joueur! Pour ajouter le joueur `dude` 
