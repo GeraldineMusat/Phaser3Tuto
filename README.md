@@ -19,7 +19,7 @@ Pour pouvoir ajouter une autre plateforme, on peut utiliser `ajouterPlatform(x, 
 Par exemple, tu peux ajouter une plateforme aux coordonnees x=600 et y=400. On peut ajouter autant de plateforme que l'on veut.
 
 ## Etape 6
-Il nous faut un joueur! Pour ajouter le joueur `dude` on doit dans un premier temps charger l'image dans `preload()` grace a cete ligne: `this.load.spritesheet('dude', 'assets/dude.png', { frameWidth: 32, frameHeight: 48 });` 
+Il nous faut un joueur! Pour ajouter le joueur `dude` on doit dans un premier temps charger l'image dans `preload()` grace a cette ligne: `this.load.spritesheet('dude', 'assets/dude.png', { frameWidth: 32, frameHeight: 48 });` 
 
 Ensuite pour ajouter le joueur dans le jeu on doit ecrire cette ligne : `ajouterJoueur(this);` dans la fonction `create()`.
 
@@ -27,4 +27,5 @@ Ensuite pour ajouter le joueur dans le jeu on doit ecrire cette ligne : `ajouter
 Pour faire bouger le joueur dans le jeu on doit d'abord ajouter des animations au joueur. Pour cela, on va aller dans la fonction `create()` et ajouter la ligne `animerJoueur(this);`. Ensuite, on doit aller dans la fonction `update()` pour activer les mouvements `bougerJoueur();`.
 
 ## Etape 8
-Maintenant, on peut ajouter des etoiles de facon aleatoir grace a la fonction `ajouterEtoiles(this, total);`. Il faut remplacer total par le nombre total d'etoile a afficher dans le 
+Maintenant passons aux etoiles. On doit d'abord charger l'image pour les etoiles. On va faire la meme chose que dans l'etape 1. L'image doit s'appeler `star`.
+Maintenant, on peut ajouter des etoiles de facon aleatoir grace a la fonction `ajouterEtoiles(this, total);`. Il faut remplacer `total` par le nombre total d'etoile a afficher dans le jeu.
