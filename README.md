@@ -29,3 +29,6 @@ Pour faire bouger le joueur dans le jeu on doit d'abord ajouter des animations a
 ## Etape 8
 Maintenant passons aux etoiles. On doit d'abord charger l'image pour les etoiles. On va faire la meme chose que dans l'etape 1. L'image doit s'appeler `star`.
 Maintenant, on peut ajouter des etoiles de facon aleatoir grace a la fonction `ajouterEtoiles(this, total);`. Il faut remplacer `total` par le nombre total d'etoile a afficher dans le jeu.
+
+## Etapes 9
+Si on veut que le joueur collect les etoiles, on doit ajouter dans la fonction `create()` cette ligne: `collecterElement(this, stars);`
