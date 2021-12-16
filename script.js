@@ -105,33 +105,17 @@ function bougerJoueur() {
 
 function preload ()
 {
-    this.load.image('sky', 'assets/sky.png');
-    this.load.image('ground', 'assets/platform.png');
-    this.load.image('star', 'assets/star.png');
-    this.load.image('bomb', 'assets/bomb.png');
-    this.load.spritesheet('dude', 'assets/dude.png', { frameWidth: 32, frameHeight: 48 });
+
 }
 
 function create ()
 {
-    creerCiel(this);
-
-    initialiserPlatforms(this);
-
-    ajouterPlatform(600, 400);
-    ajouterPlatform(50, 250);
-    ajouterPlatform(750, 220);
-
-    ajouterJoueur(this);
-    animerJoueur(this);
-
-    ajouterEtoiles(this, 5);
-    collecterElement(this, stars);
+    
 }
 
 function update ()
 {
-    bougerJoueur();
+    
 }
 
 
