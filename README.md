@@ -8,10 +8,10 @@ Dans la fonction `preaload()` ajouter `this.load.image('sky', 'assets/sky.png');
 On va maintenant afficher le ciel grace a la fonction `creerCiel(this);` que l'on va ajouter dans la fonction `create()`
 
 ## Etape 3
-Pour pouvoir afficher des platformes on va devoir d'abord charger l'image dans la fonction `preload()` comme pour *l'etape 1*.
+Pour pouvoir afficher des platformes on va devoir d'abord charger l'image dans la fonction `preload()` comme pour *l'etape 1*, on doit lui donner comme nom: `ground`.
 
 ## Etape 4
-Ensuite, on doit initialiser la platforme dans la fonction `create()` en ajoutant `initialiserPlatforms(this);`
+Ensuite, on doit initialiser la platforme dans la fonction `create()` en ajoutant `initialiserPlatforms(this);`. On peut voir ce que ca donne dans le jeu. 
 
 ## Etape 5
 Pour pouvoir ajouter une autre plateforme, on peut utiliser `ajouterPlatform(x, y);` dans la fonction `create()`. La fonction `ajouterPlatform(x, y)` a deux parametres `x` et `y` qui sont les coordonnees pour placer les plateformes dans le jeu.
