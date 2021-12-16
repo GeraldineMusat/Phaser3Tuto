@@ -16,4 +16,6 @@ Ensuite, on doit initialiser la platforme dans la fonction `create()` en ajoutan
 ## Etape 5
 Pour pouvoir ajouter d'autre plateforme, on peut utiliser `ajouterPlatform(x, y);` dans la fonction `create()`. La fonction `ajouterPlatform(x, y)` a deux parametres `x` et `y` qui sont les coordonnees pour placer les plateformes dans le jeu.
 
-Par exemple, tu peux ajouter une plateforme aux coordonnees x=600 et y=400
+Par exemple, tu peux ajouter une plateforme aux coordonnees x=600 et y=400. On peut ajouter autant de plateforme que l'on veut.
+
+
