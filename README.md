@@ -19,4 +19,7 @@ Pour pouvoir ajouter une autre plateforme, on peut utiliser `ajouterPlatform(x, 
 Par exemple, tu peux ajouter une plateforme aux coordonnees x=600 et y=400. On peut ajouter autant de plateforme que l'on veut.
 
 ## Etape 6
-Il nous faut un joueur! Pour ajouter le joueur `dude` 
+Il nous faut un joueur! Pour ajouter le joueur `dude` on doit ajouter dans la fonction `create()` ca: `ajouterJoueur(this);`
+
+## Etape 7
+Pour faire bouger le joueur dans le jeu on doit d'abord ajouter des animations au joueur. Pour cela, on va aller dans la fonction `create()` et ajouter la ligne `animerJoueur(this);`. Ensuite, on doit aller dans la fonction `update()` pour activer les mouvements `bougerJoueur();`.
