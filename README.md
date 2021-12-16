@@ -32,3 +32,6 @@ Maintenant, on peut ajouter des etoiles de facon aleatoir grace a la fonction `a
 
 ## Etapes 9
 Si on veut que le joueur collect les etoiles, on doit ajouter dans la fonction `create()` cette ligne: `collecterElement(this, stars);`
+
+## lien du tuto
+https://phaser.io/tutorials/making-your-first-phaser-3-game/part9
