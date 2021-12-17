@@ -6,7 +6,7 @@ Pour tester notre jeu il nous faut un server. Dans Visual Studio Code il existe 
 
 Une fois le projet ouvert avec Visual Studio Code et l'extension Live Server installee, on peut faire un clique droit sur le fichier `index.html` et cliquer sur `Open with Live Server`. Le jeu s'ouvre alors dans un navigateur.
 
->Pour les etpaes suivantes, vous allez devoir editer le ficher `script.js`.
+>Pour les etapes suivantes, vous allez devoir editer le ficher `script.js`.
 
 ## Etape 1
 On va commencer par charger le ciel dans le jeu. L'image se trouve dans 'assets/sky.png'. 
