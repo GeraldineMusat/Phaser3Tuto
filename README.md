@@ -2,6 +2,11 @@
 Ce tutoriel simplifie les etapes de ce tutoriel de Phaser3 : https://phaser.io/tutorials/making-your-first-phaser-3-game/part1
 
 Pour commencer il faut telecharger ce projet sur son ordinateur et le dezipper. Ensuite, l'ideal est de l'ouvrir avec l'editeur de code *[Visual Studio Code](https://code.visualstudio.com/)*. 
+Pour tester notre jeu il nous faut un server. Dans Visual Studio Code il existe une extension qui peut faire ca pour nous : [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
+Une fois le projet ouvert avec Visual Studio Code et l'extension Live Server installee, on peut faire un clique droit sur le fichier `index.html` et cliquer sur `Open with Live Server`. Le jeu s'ouvre alors dans un navigateur.
+
+>Pour les etpaes suivantes, vous allez devoir editer le ficher `script.js`.
 
 ## Etape 1
 On va commencer par charger le ciel dans le jeu. L'image se trouve dans 'assets/sky.png'. 
