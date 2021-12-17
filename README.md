@@ -19,7 +19,7 @@ A la fin, vous allez trouver 3 fonctions vides : `preload()`, `create()` et `upd
 Cette fonction est appelee au tout debut du jeu et sert a charger les images pour notre jeu.
 
 #### Create()
-Cette fonction est appelee ensuite et sert a creer nos element dans le jeu, c'est cette fonction qui nous sert a afficher nos images dans le jeu.
+Cette fonction est appelee ensuite et sert a creer nos elements dans le jeu, c'est cette fonction qui nous sert a afficher nos images dans le jeu.
 
 #### Update()
 Cette fonction sera pour les mouvements, elle est appelee tous les X temps. 
