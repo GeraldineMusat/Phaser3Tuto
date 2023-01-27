@@ -1,4 +1,4 @@
-# Phaser3Tuto
+# Phaser 3 Tutoriel Simplifie FR
 Ce tutoriel simplifie les etapes de ce tutoriel Phaser3 : https://phaser.io/tutorials/making-your-first-phaser-3-game/part1
 
 Pour commencer il faut telecharger ce projet sur son ordinateur et le dezipper. Ensuite, l'ideal est de l'ouvrir avec l'editeur de code *[Visual Studio Code](https://code.visualstudio.com/)*. 
